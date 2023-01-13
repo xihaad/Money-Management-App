@@ -6,6 +6,7 @@ function renderExpenseItem(itemData) {
   return <ExpenseItem {...itemData.item} />;
 }
 
+
 function ExpensesList({ expenses }) {
   return (
     <FlatList
