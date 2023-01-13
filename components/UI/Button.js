@@ -3,7 +3,6 @@ import { GlobalStyles } from '../../constants/styles';
 
 
 
-
 function Button({ children, onPress, mode, style }) {
   return (
     <View style={style}>
@@ -22,8 +21,6 @@ function Button({ children, onPress, mode, style }) {
 }
 
 export default Button;
-
-
 
 const styles = StyleSheet.create({
   button: {

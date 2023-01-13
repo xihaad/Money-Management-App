@@ -6,6 +6,8 @@ import { getFormattedDate } from '../../util/date';
 
 
 
+
+
 function ExpenseItem({ id, description, amount, date }) {
   const navigation = useNavigation();
 
