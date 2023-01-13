@@ -6,28 +6,22 @@ import { Ionicons } from '@expo/vector-icons';
 
 
 
-
 import ManageExpense from './screens/ManageExpense';
 import RecentExpenses from './screens/RecentExpenses';
 import AllExpenses from './screens/AllExpenses';
 
 import { GlobalStyles } from './constants/styles';
 
-
-
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
 
-
-
 function ExpensesOverview() {
   return (
-
     <BottomTabs.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: GlobalStyles.colors.primary400 },
+        headerStyle: { backgroundColor: GlobalStyles.colors.primary500 },
         headerTintColor: 'white',
-        tabBarStyle: { backgroundColor: GlobalStyles.colors.primary400 },
+        tabBarStyle: { backgroundColor: GlobalStyles.colors.primary500 },
         tabBarActiveTintColor: GlobalStyles.colors.accent500,
       }}
     >
@@ -56,8 +50,6 @@ function ExpensesOverview() {
     </BottomTabs.Navigator>
   );
 }
-
-
 
 export default function App() {
   return (
