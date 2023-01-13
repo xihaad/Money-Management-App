@@ -4,6 +4,8 @@ import { GlobalStyles } from '../../constants/styles';
 import ExpensesList from './ExpensesList';
 import ExpensesSummary from './ExpensesSummary';
 
+
+
 const DUMMY_EXPENSES = [
   {
     id: 'e1',
@@ -60,7 +62,6 @@ const DUMMY_EXPENSES = [
     date: new Date('2022-02-18')
   }
 ];
-
 
 function ExpensesOutput({ expenses, expensesPeriod }) {
   return (
