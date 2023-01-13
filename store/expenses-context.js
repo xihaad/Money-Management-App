@@ -2,8 +2,6 @@ import { createContext, useReducer } from 'react';
 
 
 
-
-
 const DUMMY_EXPENSES = [
   {
     id: 'e1',

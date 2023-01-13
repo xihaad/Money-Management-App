@@ -30,8 +30,6 @@ const styles = StyleSheet.create({
     paddingBottom: 0,
     backgroundColor: GlobalStyles.colors.primary700,
   },
-
-
   infoText: {
     color: 'white',
     fontSize: 16,
